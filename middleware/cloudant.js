@@ -18,9 +18,9 @@ dbObject.save = async (object) => {
 }
 
 dbObject.update = async (object) => {
-    const oldObject = await dbObject.db.get(object.id);
+    const oldObject = await dbObject.db.get(object._id);
     object._rev = oldObject._rev;
-    return await db.insert(object)
+    return await dbObject.db.insert(object)
 }
 
 dbObject.get = async (id) => {

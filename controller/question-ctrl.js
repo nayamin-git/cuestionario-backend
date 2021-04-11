@@ -36,6 +36,18 @@ questionCtrl.getUserInfo = async (req, res) => {
         res.status(statusCodes.NOT_FOUND).send({});
     }
 };
+questionCtrl.updateQuestions = async (req, res) => {
+    
+    try {
+        const object = { _id: req.params.userId, questions: req.body}
+        cloudant.useDB(cloudantConfig.DB_USER_Q);
+        await cloudant.update(object);
+        res.status(statusCodes.OK).send(object);
+    } catch (e) {
+        console.error(e);
+        res.status(statusCodes.NOT_FOUND).send({});
+    }
+}
 
 questionCtrl.getUserQuestions = async (req, res) => {
     try {
