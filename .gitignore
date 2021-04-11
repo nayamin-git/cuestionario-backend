@@ -25,15 +25,16 @@ server/credentials.json
 
 .dockerignore
 .github/
-.gitignore.merge
+.gitignore.merge*
 .ibm-project
 Dockerfile
 Dockerfile-tools
 LICENSE
 cli-config.yml
-package-lock.json.merge
-package.json.merge
+package-lock.json.merge*
+package.json.merge*
 public/
 scripts/
 server/
 test/
+chart/
