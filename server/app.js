@@ -10,4 +10,4 @@ app.use(express.urlencoded({
 
 router.route(app);
  
-app.listen(4000);
+app.listen(process.env.PORT);

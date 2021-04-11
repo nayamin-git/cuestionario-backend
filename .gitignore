@@ -35,6 +35,6 @@ package-lock.json.merge*
 package.json.merge*
 public/
 scripts/
-server/
 test/
 chart/
+node_modules_linux/
