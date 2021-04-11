@@ -25,6 +25,22 @@ questionCtrl.getAllUser = async (req, res) => {
     }
 };
 
+questionCtrl.addUser = async (req, res) => {
+    try {
+        const object = {...req.body, _id: req.body.rpe}
+        cloudant.useDB(cloudantConfig.DB_USERS);
+        await cloudant.save(object);
+        cloudant.useDB(cloudantConfig.DB_QUESTIONS);
+        const questionsVersion = await cloudant.get('version_' + object.version);
+        cloudant.useDB(cloudantConfig.DB_USER_Q);
+        await cloudant.save({_id: object.rpe, questions: questionsVersion.questions });
+        res.status(statusCodes.OK).send(object);
+    } catch (e) {
+        console.error(e);
+        res.status(statusCodes.NOT_FOUND).send({});
+    }
+}
+
 questionCtrl.getUserInfo = async (req, res) => {
     try {
         const userId = req.params.userId;
