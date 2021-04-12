@@ -24,6 +24,7 @@ yarn-error.log*
 server/credentials.json
 
 .dockerignore
+.cfignore
 .github/
 .gitignore.merge*
 .ibm-project
