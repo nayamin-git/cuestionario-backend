@@ -292,13 +292,13 @@ const questions = [
     {
       "id": 49,
       "cat": 6,
-      "desc": "Utilizo muchas formas posibles de explicatle un cliente o compañero de trabajo cuando hay alguna inconformidad de su parte.",
+      "desc": "Utilizo muchas formas posibles de explicarle un cliente o compañero de trabajo cuando hay alguna inconformidad de su parte.",
       "direct": true
     },
     {
       "id": 50,
       "cat": 6,
-      "desc": "Puedo comunicatme de distintas maneras según lo requiera la situación y la persona con la que estoy hablando.",
+      "desc": "Puedo comunicarme de distintas maneras según lo requiera la situación y la persona con la que estoy hablando.",
       "direct": true
     },
     {
@@ -580,7 +580,7 @@ const questions = [
     {
       "id": 97,
       "cat": 12,
-      "desc": "Los miembros de un equipo deben saber en todo momento si están cumpliendo con sus indicadores, es deber del lider explicatlos cuando haya dudas",
+      "desc": "Los miembros de un equipo deben saber en todo momento si están cumpliendo con sus indicadores, es deber del lider explicarlos cuando haya dudas",
       "direct": true
     },
     {
@@ -636,7 +636,7 @@ const questions = [
 createVersion.getVersion = async (req, res) => {
   const newVersion = [];
   
-  const order= [1, 95, 34, 85, 15, 108, 96, 2, 97, 86, 25, 103, 24, 82, 87, 84, 3, 83, 33, 98, 41, 81, 16, 104, 32, 78, 88, 60, 71, 42, 109, 23, 70, 35, 105, 72, 73, 14, 75, 31, 99, 4, 106, 43, 26, 74, 89, 5, 80, 27, 44, 53, 59, 6, 45, 36, 90, 17, 79, 22, 100, 54, 8, 110, 77, 28, 61, 91, 46, 9, 111, 63, 18, 62, 38, 92, 51, 10, 64, 29, 65, 50, 101, 11, 39, 66, 21, 107, 47, 48, 56, 12, 93, 40, 94, 19, 102, 30, 67, 49, 13, 55, 68, 20, 69];
+  const order= [4, 11, 20, 31, 39, 47, 55, 63, 72, 80, 87, 95, 102, 3, 10, 19, 30, 38, 46, 54, 62, 71, 79, 86, 94, 101, 2, 9, 18, 29, 37, 45, 53, 61, 70, 78, 85, 93, 100, 1, 8, 17, 28, 36, 44, 52, 60, 69, 77, 84, 92, 99, 27, 26, 16, 25, 68, 15, 24, 35, 43, 51, 59, 67, 76, 91, 7, 14, 23, 34, 42, 50, 58, 66, 75, 83, 90, 98, 105, 6, 13, 22, 33, 41, 49, 57, 65, 74, 82, 89, 97, 104, 5, 12, 21, 32, 40, 48, 56, 64, 73, 81, 88, 96, 103];
   
   for (let i =1; i <= order.length; i++ ) {
     let index = order.findIndex( num => num === i);
