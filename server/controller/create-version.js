@@ -28,7 +28,7 @@ const questions = [
     {
       "id": 5,
       "cat": 1,
-      "desc": "Cuando trabajo en equipo necesito dar mis opiniones para que sean tomadas en consideración en la solución final aunque yo no sea el encatgado del equipo",
+      "desc": "Cuando trabajo en equipo necesito dar mis opiniones para que sean tomadas en consideración en la solución final aunque yo no sea el encargado del equipo",
       "direct": true
     },
     {
@@ -40,79 +40,79 @@ const questions = [
     {
       "id": 7,
       "cat": 1,
-      "desc": "Si se me asignan tareas extras fuera de mi trabajo regular pero no son necesarias para que el equipo avance no dudo en tomar la responsabilidad.",
+      "desc": "Si se me asignan tareas extras fuera de mi trabajo regular pero no son necesarias para que el equipo avance no dudo en tomar la responsabilidad",
       "direct": true
     },
     {
       "id": 8,
       "cat": 2,
-      "desc": "Me siento presionado/a cuando trabajo bajo plazos de tiempo muy cortos o estrictos.",
+      "desc": "Me siento presionada(o) cuando trabajo bajo plazos de tiempo muy cortos o estrictos",
       "direct": true
     },
     {
       "id": 9,
       "cat": 2,
-      "desc": "Considero que me desempeño mejor cuando trabajo bajo presión.",
+      "desc": "Considero que me desempeño mejor cuando trabajo bajo presión",
       "direct": true
     },
     {
       "id": 10,
       "cat": 2,
-      "desc": "Realizo ejercicio (actividad física) al menos 2 vez por semana.",
+      "desc": "Realizo ejercicio (actividad física) al menos 2 vez por semana",
       "direct": true
     },
     {
       "id": 11,
       "cat": 2,
-      "desc": "Realizo actividades recreativas que me ayudan a sentirme mejor cuando estoy muy presionado.",
+      "desc": "Realizo actividades recreativas que me ayudan a sentirme mejor cuando estoy muy presionada(o)",
       "direct": true
     },
     {
       "id": 12,
       "cat": 2,
-      "desc": "Suelo sentirme agotado/a al final de la jornada laboral.",
+      "desc": "Suelo sentirme agotada(o) al final de la jornada laboral",
       "direct": false
     },
     {
       "id": 13,
       "cat": 2,
-      "desc": "Me siento agobiado cuando la catga de responsabilidades en el trabajo es mucha.",
+      "desc": "Me siento agobiada(o) cuando la carga de responsabilidades en el trabajo es mucha",
       "direct": false
     },
     {
       "id": 14,
       "cat": 2,
-      "desc": "Me duele la cabeza cuando me siento estresado/a.",
+      "desc": "Me duele la cabeza cuando me siento estresada(o)",
       "direct": false
     },
     {
       "id": 15,
       "cat": 2,
-      "desc": "Suelo tener dolores musculares al final de la jornada laboral.",
+      "desc": "Suelo tener dolores musculares al final de la jornada laboral",
       "direct": false
     },
     {
       "id": 16,
       "cat": 2,
-      "desc": "Se me dificulta tomar decisiones cuando me siento muy presionado/a.",
+      "desc": "Se me dificulta tomar decisiones cuando me siento muy presionada(o)",
       "direct": false
     },
     {
       "id": 17,
       "cat": 3,
-      "desc": "Incluso si me siento triste, intento pensar en cosas agradables.",
+      "desc": "Incluso si me siento triste, intento pensar en cosas agradables",
       "direct": true
     },
     {
       "id": 18,
       "cat": 3,
-      "desc": "Me comunico de manera amable con los clientes o equipo de trabajo aún cuando ellos están muy molestos.",
+      "desc": "Logro comunicarme de manera amable con los clientes o equipo de trabajo aún cuando ellos están muy molestos",
       "direct": true
     },
     {
       "id": 19,
       "cat": 3,
-      "desc": "Cuando hay un problema de comunicación en el que el otro interpretó un comentario mío erróneamente siempre intento aclarar el malentendido.",
+      "desc": "Cuando hay un problema de comunicación en el que el otro interpretó un comentario mío erróneamente siempre intento aclarar el malentendido",
       "direct": true
     },
     {
@@ -124,187 +124,187 @@ const questions = [
     {
       "id": 21,
       "cat": 3,
-      "desc": "Me molesta realizar actividades que no son parte de mis responsabilidades o deberes.",
+      "desc": "Me molesta realizar actividades que no son parte de mis responsabilidades o deberes",
       "direct": false
     },
     {
       "id": 22,
       "cat": 3,
-      "desc": "Cuando estoy muy molesto intento cambiar mi estado de ánimo.",
+      "desc": "Cuando estoy muy molesto intento cambiar mi estado de ánimo",
       "direct": true
     },
     {
       "id": 23,
       "cat": 3,
-      "desc": "Cuando me encuentro en una situación conflictiva, tiendo a pensar en situaciones similares pasadas que se han resuelto de manera favorable.",
+      "desc": "Cuando me encuentro en una situación conflictiva, tiendo a pensar en situaciones similares pasadas que se han resuelto de manera favorable",
       "direct": true
     },
     {
       "id": 24,
       "cat": 3,
-      "desc": "Considero que mi posición no es la adecuada para hacerme responsable por los problemas en el ambiente de trabajo.",
+      "desc": "Considero que mi posición no es la adecuada para hacerme responsable por los problemas en el ambiente de trabajo",
       "direct": false
     },
     {
       "id": 25,
       "cat": 3,
-      "desc": "Cuando estoy alterado/a en ocasiones emito comentarios que pueden ser malinterpretados.",
+      "desc": "Cuando estoy alterada(o) en ocasiones emito comentarios que pueden ser malinterpretados",
       "direct": false
     },
     {
       "id": 26,
       "cat": 3,
-      "desc": "Suelo terminar la conversación cuando ésta se vuelve muy conflictiva o el interlocutor es testarudo.",
+      "desc": "Suelo terminar la conversación cuando ésta se vuelve muy conflictiva o el interlocutor es testarudo",
       "direct": false
     },
     {
       "id": 27,
       "cat": 3,
-      "desc": "Suelo pensar en cómo resolver o sobrellevar los problemas o situaciones difíciles.",
+      "desc": "Suelo pensar en cómo resolver o sobrellevar los problemas o situaciones difíciles",
       "direct": true
     },
     {
       "id": 28,
       "cat": 4,
-      "desc": "Cuando no estoy recibiendo el tipo de servicio o atención que espero protesto inmediatamente.",
+      "desc": "Cuando no estoy recibiendo el tipo de servicio o atención que espero protesto inmediatamente",
       "direct": false
     },
     {
       "id": 29,
       "cat": 4,
-      "desc": "Me resulta muy difícil controlar mi desagrado cuando alguien está siendo grosero conmigo.",
+      "desc": "Me resulta muy difícil controlar mi desagrado cuando alguien está siendo grosero conmigo",
       "direct": false
     },
     {
       "id": 30,
       "cat": 4,
-      "desc": "Cuando estoy muy molesto/a en ocasiones actúo o digo cosas sin pensar.",
+      "desc": "Cuando estoy muy molesta(o) en ocasiones actúo o digo cosas sin pensar",
       "direct": false
     },
     {
       "id": 31,
       "cat": 4,
-      "desc": "Me enfado fácilmente.",
+      "desc": "Me enfado fácilmente",
       "direct": false
     },
     {
       "id": 32,
       "cat": 4,
-      "desc": "Durante una discusión procuro no alzar la voz aún cuando la otra persona sí lo hace.",
+      "desc": "Durante una discusión procuro no alzar la voz aún cuando la otra persona sí lo hace",
       "direct": true
     },
     {
       "id": 33,
       "cat": 4,
-      "desc": "Me preocupo mucho cuando tengo varias actividades que realizar y no logro concluirlas.",
+      "desc": "Me preocupo mucho cuando tengo varias actividades que realizar y no logro concluirlas",
       "direct": false
     },
     {
       "id": 34,
       "cat": 4,
-      "desc": "Aún cuando el resultado de mi trabajo no fue lo que yo esperaba me siento satisfecho/a de haberlo concluido.",
+      "desc": "Aún cuando el resultado de mi trabajo no fue lo que yo esperaba me siento satisfecha(o) de haberlo concluido",
       "direct": true
     },
     {
       "id": 35,
       "cat": 4,
-      "desc": "Me altero cuando la persona con la que estoy conversando levanta el tono de voz mostrando molestia.",
+      "desc": "Me altero cuando la persona con la que estoy conversando levanta el tono de voz mostrando molestia",
       "direct": false
     },
     {
       "id": 36,
       "cat": 5,
-      "desc": "En ocasiones evito hacer preguntas porque pueden parecer obvias o tontas.",
+      "desc": "En ocasiones evito hacer preguntas porque pueden parecer obvias o tontas",
       "direct": false
     },
     {
       "id": 37,
       "cat": 5,
-      "desc": "He dudado en proponer una solución a una situación problemática a mi equipo de trabajo.",
+      "desc": "He dudado en proponer una solución a una situación problemática a mi equipo de trabajo",
       "direct": false
     },
     {
       "id": 38,
       "cat": 5,
-      "desc": "No sé qué decir ante un reconocimiento por parte de un compañero o superior.",
+      "desc": "No sé qué decir ante un reconocimiento por parte de un compañero o superior",
       "direct": false
     },
     {
       "id": 39,
       "cat": 5,
-      "desc": "Suelo expresarme con calma, aún cuando estoy comunicando firmeza y seguridad.",
+      "desc": "Suelo expresarme con calma, aún cuando estoy comunicando firmeza y seguridad",
       "direct": true
     },
     {
       "id": 40,
       "cat": 5,
-      "desc": "Tiendo a repetir el mensaje cuando la otra persona no me ha escuchado.",
+      "desc": "Tiendo a repetir el mensaje cuando la otra persona no me ha escuchado",
       "direct": true
     },
     {
       "id": 41,
       "cat": 5,
-      "desc": "Cuando estoy con mi equipo de trabajo o con un cliente demuestro interés en lo que dicen.",
+      "desc": "Cuando estoy con mi equipo de trabajo o con un cliente demuestro interés en lo que dicen",
       "direct": true
     },
     {
       "id": 42,
       "cat": 5,
-      "desc": "Al tener un problema con un miembro de mi equipo busco negociar y comprometer al otro en un plan de trabajo.",
+      "desc": "Al tener un problema con un miembro de mi equipo busco negociar y comprometer al otro en un plan de trabajo",
       "direct": true
     },
     {
       "id": 43,
       "cat": 5,
-      "desc": "Cuando un miembro de mi equipo de trabajo no colabora o cumple con sus responsabilidades inmediatamente hablo con él/ella.",
+      "desc": "Cuando un miembro de mi equipo de trabajo no colabora o cumple con sus responsabilidades inmediatamente hablo con ella/él",
       "direct": true
     },
     {
       "id": 44,
       "cat": 6,
-      "desc": "Suelo tener influencia en las decisiones tomadas para cambiar o mejorar situaciones difíciles en el contexto laboral.",
+      "desc": "Suelo tener influencia en las decisiones tomadas para cambiar o mejorar situaciones difíciles en el contexto laboral",
       "direct": true
     },
     {
       "id": 45,
       "cat": 6,
-      "desc": "Me molesta mucho cuando algo resulta muy diferente a lo planeado originalmente.",
+      "desc": "Me molesta mucho cuando algo resulta muy diferente a lo planeado originalmente",
       "direct": false
     },
     {
       "id": 46,
       "cat": 6,
-      "desc": "Siempre estoy dispuesto/a a considerar alternativas para manejar un problema.",
+      "desc": "Siempre estoy dispuesta(o) a considerar alternativas para manejar un problema",
       "direct": true
     },
     {
       "id": 47,
       "cat": 6,
-      "desc": "Encuentro soluciones viables a problemas o situaciones conflictiva.",
+      "desc": "Encuentro soluciones viables a problemas o situaciones conflictivas",
       "direct": true
     },
     {
       "id": 48,
       "cat": 6,
-      "desc": "Evito situaciones nuevas o que son poco comunes.",
+      "desc": "Evito situaciones nuevas o que son poco comunes",
       "direct": false
     },
     {
       "id": 49,
       "cat": 6,
-      "desc": "Utilizo muchas formas posibles de explicarle un cliente o compañero de trabajo cuando hay alguna inconformidad de su parte.",
+      "desc": "Utilizo muchas formas posibles de explicarle un cliente o compañero de trabajo cuando hay alguna inconformidad de su parte",
       "direct": true
     },
     {
       "id": 50,
       "cat": 6,
-      "desc": "Puedo comunicarme de distintas maneras según lo requiera la situación y la persona con la que estoy hablando.",
+      "desc": "Puedo comunicarme de distintas maneras según lo requiera la situación y la persona con la que estoy hablando",
       "direct": true
     },
     {
       "id": 51,
       "cat": 6,
-      "desc": "Busco maneras de resolver dificultades aún si estas maneras no son propuestas por el manual o las reglas explícitas de la empresa.",
+      "desc": "Busco maneras de resolver dificultades aún si estas maneras no son propuestas por el manual o las reglas explícitas de la empresa",
       "direct": true
     },
     {
@@ -322,7 +322,7 @@ const questions = [
     {
       "id": 54,
       "cat": 7,
-      "desc": "Suelo prestar poca atención a los detalles cuando realizó una tarea",
+      "desc": "Suelo prestar poca atención a los detalles cuando realizo una tarea",
       "direct": false
     },
     {
@@ -352,7 +352,7 @@ const questions = [
     {
       "id": 59,
       "cat": 7,
-      "desc": "Me considero una persona observador(a)",
+      "desc": "Me considero una persona observadora",
       "direct": true
     },
     {
@@ -394,13 +394,13 @@ const questions = [
     {
       "id": 66,
       "cat": 8,
-      "desc": "Cuando la empresa reconoce a un colaborador me da gusto aunque no sea para mi el reconocimiento",
+      "desc": "Cuando la empresa reconoce a un colaborador me da gusto, aunque no sea para mi el reconocimiento",
       "direct": true
     },
     {
       "id": 67,
       "cat": 8,
-      "desc": "Considero que es mejor enfocatse en uno mismo para conseguir tus metas",
+      "desc": "Considero que es mejor enfocarse en uno mismo para conseguir tus metas",
       "direct": false
     },
     {
@@ -418,7 +418,7 @@ const questions = [
     {
       "id": 70,
       "cat": 9,
-      "desc": "Me gusta analizar el problema de todos los ángulos posibles para buscat la solución adecuada",
+      "desc": "Me gusta analizar el problema de todos los ángulos posibles para buscar la solución adecuada",
       "direct": true
     },
     {
@@ -466,7 +466,7 @@ const questions = [
     {
       "id": 78,
       "cat": 10,
-      "desc": "Si alguna decisión que se toma afecta mis labores procuro hablar con el responsable para llegar a un acuerdo que beneficie a las dos partes.",
+      "desc": "Si alguna decisión que se toma afecta mis labores procuro hablar con el responsable para llegar a un acuerdo que beneficie a las dos partes",
       "direct": true
     },
     {
@@ -478,7 +478,7 @@ const questions = [
     {
       "id": 80,
       "cat": 10,
-      "desc": "Si intento algo en una ocasión y no funciona prefiero busco otra manera de lograrlo aunque me lleve más tiempo que dejar de lado por completo la idea.",
+      "desc": "Si intento algo en una ocasión y no funciona prefiero buscar otra manera de lograrlo aunque me lleve más tiempo que dejar de lado por completo la idea.",
       "direct": true
     },
     {
@@ -550,37 +550,37 @@ const questions = [
     {
       "id": 92,
       "cat": 12,
-      "desc": "Dentro de un equipo las tareas se deben dividir equitativamente aunque haya alguien que tenga más experiencia que los demás no deben asignársele más tareas",
+      "desc": "Dentro de un equipo las tareas se deben dividir equitativamente, aunque haya alguien que tenga más experiencia que los demás no deben asignársele más tareas",
       "direct": true
     },
     {
       "id": 93,
       "cat": 12,
-      "desc": "Cuando un miembro del equipo no va a entregar algo a tiempo es mejor quitarle la responsabilidad en ese momento para entregar",
+      "desc": "Cuando un miembro del equipo no va a entregar algo a tiempo es mejor quitarle la responsabilidad en ese momento para entregar puntualmente",
       "direct": false
     },
     {
       "id": 94,
       "cat": 12,
-      "desc": "El momento y el lugar para retroalimentar a alguien no es importante cuando ya lleva varias reincidencias",
+      "desc": "El momento y el lugar para retroalimentar a alguien no es importante cuando ya lleva ha fallado continuamente",
       "direct": false
     },
     {
       "id": 95,
       "cat": 12,
-      "desc": "Considero que la confianza que se tengan los miembros de un equipo mejora si el ambiente laboral es bueno aun a costa de que en ocasiones pierdan tiempo en socializar.",
+      "desc": "Considero que la confianza que se tengan los miembros de un equipo mejora si el ambiente laboral es bueno, aun a costa de que en ocasiones pierdan tiempo en socializar",
       "direct": true
     },
     {
       "id": 96,
       "cat": 12,
-      "desc": "Las promociones de puesto y aumentos de salario sólo incumben al lder y a la persona que se lo ha ganado",
+      "desc": "Las promociones de puesto y aumentos de salario sólo incumben al líder o jefe y a la persona que se lo ha ganado",
       "direct": false
     },
     {
       "id": 97,
       "cat": 12,
-      "desc": "Los miembros de un equipo deben saber en todo momento si están cumpliendo con sus indicadores, es deber del lider explicarlos cuando haya dudas",
+      "desc": "Los miembros de un equipo deben saber en todo momento si están cumpliendo con sus indicadores, es deber del líder explicarlos cuando haya dudas",
       "direct": true
     },
     {
@@ -598,7 +598,7 @@ const questions = [
     {
       "id": 100,
       "cat": 13,
-      "desc": "Con un lider la puntualidad debe ser flexible ya que las obligaciones que tiene le pueden retrasar en ocasiones",
+      "desc": "Con un líder o jefe la puntualidad debe ser flexible ya que las obligaciones que tiene le pueden retrasar en ocasiones",
       "direct": false
     },
     {
@@ -610,25 +610,25 @@ const questions = [
     {
       "id": 102,
       "cat": 13,
-      "desc": "Para mejorar la calidad del equipo el lder debe estar enterado de cómo realizar cada una de las actividades de los integrantes",
+      "desc": "Para mejorar la calidad del equipo el líder debe estar enterado de cómo realizar cada una de las actividades de los integrantes",
       "direct": true
     },
     {
       "id": 103,
       "cat": 13,
-      "desc": "La retroalimentación que el equipo da al lider es tan importante como la que el lider da a al equipo",
+      "desc": "La retroalimentación que el equipo da al líder es tan importante como la que el líder da a al equipo",
       "direct": true
     },
     {
       "id": 104,
       "cat": 13,
-      "desc": "Las tareas desafiantes y novedosas deben ser abordadas en conjunto por todo el equipo de trabajo incluyendo al lider",
+      "desc": "Las tareas desafiantes y novedosas deben ser abordadas en conjunto por todo el equipo de trabajo incluyendo al líder",
       "direct": true
     },
     {
       "id": 105,
       "cat": 13,
-      "desc": "Las ideas que un miembro del equipo tenga pueden llegar a ser igual de importantes que las que el lider proponga, aunque aceptarlas constantemente puede verse como falta de autoridad",
+      "desc": "Las ideas que un miembro del equipo tenga pueden llegar a ser igual de importantes que las que el líder proponga, aunque aceptarlas constantemente puede verse como falta de autoridad",
       "direct": true
     }
   ];
@@ -636,7 +636,7 @@ const questions = [
 createVersion.getVersion = async (req, res) => {
   const newVersion = [];
   
-  const order= [4, 11, 20, 31, 39, 47, 55, 63, 72, 80, 87, 95, 102, 3, 10, 19, 30, 38, 46, 54, 62, 71, 79, 86, 94, 101, 2, 9, 18, 29, 37, 45, 53, 61, 70, 78, 85, 93, 100, 1, 8, 17, 28, 36, 44, 52, 60, 69, 77, 84, 92, 99, 27, 26, 16, 25, 68, 15, 24, 35, 43, 51, 59, 67, 76, 91, 7, 14, 23, 34, 42, 50, 58, 66, 75, 83, 90, 98, 105, 6, 13, 22, 33, 41, 49, 57, 65, 74, 82, 89, 97, 104, 5, 12, 21, 32, 40, 48, 56, 64, 73, 81, 88, 96, 103];
+  const order= [1, 8, 17, 28, 36, 44, 52, 60, 69, 77, 84, 92, 99, 2, 9, 18, 29, 37, 45, 53, 61, 70, 78, 85, 93, 100, 3, 10, 19, 30, 38, 46, 54, 62, 71, 79, 86, 94, 101, 4, 11, 20, 31, 39, 47, 55, 63, 72, 80, 87, 95, 102, 5, 12, 21, 32, 40, 48, 56, 64, 73, 81, 88, 96, 103, 6, 13, 22, 33, 41, 49, 57, 65, 74, 82, 89, 97, 104, 7, 14, 23, 34, 42, 50, 58, 66, 75, 83, 90, 98, 105, 15, 24, 35, 43, 51, 59, 67, 76, 91, 16, 25, 68, 26, 27];
   
   for (let i =1; i <= order.length; i++ ) {
     let index = order.findIndex( num => num === i);

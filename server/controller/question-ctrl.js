@@ -6,7 +6,7 @@ const questionCtrl = {};
 questionCtrl.getAllQuestions = async (req, res) => {
     try {
         cloudant.useDB(cloudantConfig.DB_QUESTIONS);
-        const object =  await cloudant.get('allquestions');
+        const object = await cloudant.get('allquestions');
         res.status(statusCodes.OK).send(object);
     } catch (e) {
         console.error(e);
@@ -17,7 +17,7 @@ questionCtrl.getAllQuestions = async (req, res) => {
 questionCtrl.getAllUser = async (req, res) => {
     try {
         cloudant.useDB(cloudantConfig.DB_USERS);
-        const object =  await cloudant.getAll();
+        const object = await cloudant.getAll();
         res.status(statusCodes.OK).send(object.rows);
     } catch (e) {
         console.error(e);
@@ -27,13 +27,13 @@ questionCtrl.getAllUser = async (req, res) => {
 
 questionCtrl.addUser = async (req, res) => {
     try {
-        const object = {...req.body, _id: req.body.rpe}
+        const object = { ...req.body, _id: req.body.rpe }
         cloudant.useDB(cloudantConfig.DB_USERS);
         await cloudant.save(object);
         cloudant.useDB(cloudantConfig.DB_QUESTIONS);
-        const questionsVersion = await cloudant.get('version_' + object.version);
+        const questionsVersion = await cloudant.get('version-' + object.version);
         cloudant.useDB(cloudantConfig.DB_USER_Q);
-        await cloudant.save({_id: object.rpe, questions: questionsVersion.questions });
+        await cloudant.save({ _id: object.rpe, questions: questionsVersion.questions });
         res.status(statusCodes.OK).send(object);
     } catch (e) {
         console.error(e);
@@ -45,7 +45,7 @@ questionCtrl.getUserInfo = async (req, res) => {
     try {
         const userId = req.params.userId;
         cloudant.useDB(cloudantConfig.DB_USERS);
-        const object =  await cloudant.get(userId);
+        const object = await cloudant.get(userId);
         res.status(statusCodes.OK).send(object);
     } catch (e) {
         console.error(e);
@@ -53,9 +53,9 @@ questionCtrl.getUserInfo = async (req, res) => {
     }
 };
 questionCtrl.updateQuestions = async (req, res) => {
-    
+
     try {
-        const object = { _id: req.params.userId, questions: req.body}
+        const object = { _id: req.params.userId, questions: req.body }
         cloudant.useDB(cloudantConfig.DB_USER_Q);
         await cloudant.update(object);
         res.status(statusCodes.OK).send(object);
@@ -69,7 +69,7 @@ questionCtrl.getUserQuestions = async (req, res) => {
     try {
         const userId = req.params.userId;
         cloudant.useDB(cloudantConfig.DB_USER_Q);
-        const object =  await cloudant.get(userId);
+        const object = await cloudant.get(userId);
         res.status(statusCodes.OK).send(object);
     } catch (e) {
         console.error(e);

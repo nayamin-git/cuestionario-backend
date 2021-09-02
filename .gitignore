@@ -39,3 +39,4 @@ scripts/
 test/
 chart/
 node_modules_linux/
+manifest.yml
